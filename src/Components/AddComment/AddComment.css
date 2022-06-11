@@ -1,0 +1,64 @@
+.AddComment {
+  width: 100%;
+  margin-top: 30px;
+}
+.AddComment__body {
+  padding: 1.5rem;
+
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 6px 6px 5px -10px rgba(34, 60, 80, 0.6);
+  background-color: white;
+}
+
+.AddComment__body img {
+  width: 50px;
+  height: 50px;
+  margin-right: 2rem;
+}
+.AddComment__body form {
+  display: flex;
+  align-items: flex-start;
+}
+.AddComment__body textarea {
+  width: 420px;
+  height: 90px;
+  resize: none;
+
+  margin-right: 2rem;
+  padding: 5px;
+
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.AddComment__body textarea:focus {
+  border: 2px solid #000;
+}
+.AddComment__body button {
+  width: 100px;
+  height: auto;
+
+  padding: 10px 0;
+
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+
+  background-color: hsl(238, 40%, 52%);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: 0.3s all;
+  transition: transform 0s;
+}
+.AddComment__body button:hover {
+  opacity: 0.5;
+}
+.AddComment__body button:active {
+  transform: scale(0.9);
+}

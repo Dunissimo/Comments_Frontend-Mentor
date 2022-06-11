@@ -1,14 +1,19 @@
 import React from "react";
 
+import "./AddComment.css";
+import avatar from "../../images/avatars/image-juliusomo.png";
+
 const AddComment = () => {
   return (
     <div className="AddComment">
       <div className="container">
-        <img src="" alt="avatar" />
-        <form>
-          <textarea></textarea>
-          <button>Send</button>
-        </form>
+        <div className="AddComment__body">
+          <img src={avatar} alt="avatar" />
+          <form onClick={(e) => e.preventDefault()}>
+            <textarea placeholder="Add a comment..."></textarea>
+            <button>Send</button>
+          </form>
+        </div>
       </div>
     </div>
   );
