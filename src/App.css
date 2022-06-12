@@ -1,6 +1,10 @@
+html,
+body {
+  height: 100%;
+}
 .App {
-  min-width: 100vw;
-  min-height: 100vh;
+  /* min-width: 100vw; */
+  /* min-height: 100vh; */
 
   background-color: hsl(223, 19%, 93%);
 
